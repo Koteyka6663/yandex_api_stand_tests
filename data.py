@@ -1,14 +1,16 @@
+#Заголовки запросов
 headers = {
-             "Authorization": "Bearer "
+                "Content-Type": "application/json"
           }
 
-
+#Тело запроса для создания пользователя
 user_body = {
                 "firstName": "Котейка",
                 "phone": "+79995553322",
                 "address": "г. Москва, ул. Пушкина, д. 10"
             }
 
+#Тело запроса для создания набора пользователя
 kit_body = {
                 "name": "Суп из пуп"
             }
